@@ -1,0 +1,31 @@
+{
+  "context": "client",
+  "identifier": "com.pa.deathbydenim.chatalert",
+  "display_name": "Chat alert",
+  "description": "Audible alerts when somebody type in lobby or in-game chat.",
+  "author": "DeathByDenim Lula Mae",
+  "authors" : ["DeathByDenim", "Lula Mae"],
+  "version": "1.0",
+  "build": "105067",
+  "date": "2017-12-10",
+  "signature": "not yet implemented",
+  "forum": "",
+  "priority": 100,
+  "icon": "",
+  "category": ["gameplay", "lobby", "ui"],
+  "scenes":
+  {
+    "new_game":
+    [
+      "coui://ui/mods/com.pa.deathbydenim.chatalert/new_game.js"
+    ],
+    "live_game_chat":
+    [
+      "coui://ui/mods/com.pa.deathbydenim.chatalert/live_game_chat.js"
+    ],
+    "settings":
+    [
+      "coui://ui/mods/com.pa.deathbydenim.chatalert/settings.js"
+    ]
+  }
+}
